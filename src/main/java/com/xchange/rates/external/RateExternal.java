@@ -1,14 +1,10 @@
 package com.xchange.rates.external;
 
 import com.xchange.rates.constants.Constants;
-import com.xchange.rates.model.external.RateForCurrencyPair;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
+import com.xchange.rates.dto.external.RateForCurrencyPair;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.Set;
 
 @Component
 public class RateExternal {

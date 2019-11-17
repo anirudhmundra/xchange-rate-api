@@ -4,12 +4,11 @@ import com.xchange.rates.constants.Constants;
 import com.xchange.rates.external.RateExternal;
 import com.xchange.rates.model.CurrencyRate;
 import com.xchange.rates.model.ExchangeRateForCurrencyPair;
-import com.xchange.rates.model.external.RateForCurrencyPair;
+import com.xchange.rates.dto.external.RateForCurrencyPair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 

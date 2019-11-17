@@ -1,4 +1,4 @@
-package com.xchange.rates.model.external;
+package com.xchange.rates.dto.external;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
